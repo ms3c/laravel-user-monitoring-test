@@ -9,12 +9,12 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
-use Binafy\LaravelUserMonitoring\Traits\Actionable;
+//use Binafy\LaravelUserMonitoring\Traits\Actionable;
 
 class User extends Authenticatable
 {
     use HasApiTokens;
-    use Actionable;
+    //use Actionable;
 
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory;
